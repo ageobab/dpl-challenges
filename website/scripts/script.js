@@ -1,3 +1,3 @@
-$(function(){
+$(function() {
   console.log('Site loaded');
 });

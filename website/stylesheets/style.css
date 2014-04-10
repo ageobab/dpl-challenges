@@ -1,37 +1,38 @@
-body.site {
+body {
   padding-top: 20px;
   padding-bottom: 20px;
-	background-color: 992283;
-	color: white
-
+  background-color: #992283;
+  color: white;
+}
 .header,
 .marketing,
 .footer {
-  pad-right: 15px;
-  pad-left: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.header
-  border-bottom: 1px solid #e5e5e5
-
-.header h3
+.header {
+  border-bottom: 4px solid #e5e5e5;
+}
+.header h3 {
   padding-bottom: 19px;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-
-#footer
-  padding-to: 19px;
-  border-to: 1px solid #e5e5e5
 }
-.container-narrow > hr {
+#footer {
+  padding-top: 19px;
+  border-top: 1px solid #e5e5e5;
+}
+.container>hr {
   margin: 30px 0;
 }
-#jumbotron {
-  text-align: middle;
-  border-bottom: 1px big #e5e5e5;
-	color: #333333;
-	text-shadow: #eeeeee;
-	box-shadow: 0 0 10px #000000;
+.jumbotron {
+  margin-top: 50px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  color: #333333;
+  text-shadow: #eeeeee;
+  box-shadow: 0 0 10px #000000;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -40,10 +41,21 @@ body.site {
 .marketing {
   margin: 40px 0;
 }
-.marketing p + h4 {
+.marketing p+h4 {
   margin-top: 28px;
 }
-@media screen and (min-width: 768px) {
+
+.img {
+  margin-top: 0px;
+  margin-right: 0px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  color: #333333;
+  text-shadow: #eeeeee;
+  box-shadow: 0 0 10px #000000;
+}
+
+@media screen and (min-width:768px) {
   .header,
   .marketing,
   .footer {
@@ -57,7 +69,7 @@ body.site {
     border-bottom: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .container {
     max-width: 730px;
   }
